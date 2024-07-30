@@ -13,13 +13,51 @@
 
 }
 
-.text {
-    margin-top: 20px;
+.textBox {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgb(42, 42, 43);
+    padding: 50px 0 50px 0;
+    gap: 25px;
+}
 
+.titel {
+    font-size: 50px;
+    color: rgb(235, 57, 25);
+    letter-spacing: 0.02em;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.02em;
+}
+
+.slaiderWrap {
+    display: flex;
+    gap: 20px;
+}
+
+.svgBox {
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.slaiderText {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.02em;
+}
+
+.slaiderSvg {
+    width: 50px;
+    height: 50px;
 }
 
 .location {
@@ -47,7 +85,7 @@
 }
 
 .locationBox {
-    margin-top: 50px;
+
     background-color: rgb(42, 42, 43);
 
 }

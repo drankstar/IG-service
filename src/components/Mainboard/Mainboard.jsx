@@ -1,3 +1,4 @@
+import Comments from "../Comments/Comments"
 import Slaider from "../Slaider/Slaider"
 import styles from "./Mainboard.module.css"
 

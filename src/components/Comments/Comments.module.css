@@ -1,0 +1,40 @@
+.commentSwiper {
+
+    width: 300px;
+    height: 400px;
+
+}
+
+.swiperBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.082);
+    padding: 35px 0 35px 0;
+}
+
+.slidCard {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 25px;
+    letter-spacing: 0.02em;
+
+}
+
+.text {
+    width: 220px;
+    margin-top: 25px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}

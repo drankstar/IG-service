@@ -1,5 +1,5 @@
 import styles from "./Slaider.module.css"
-
+import sprite from "../../../public/sprite.svg"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 import "swiper/css"
@@ -7,6 +7,7 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules"
+import Comments from "../Comments/Comments"
 
 const Slaider = () => {
   return (
@@ -51,10 +52,31 @@ const Slaider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className={styles.text}>
-        <h2>IG-Service</h2>
-        <p>Наше СТО займаеться повним ремонтом Вашего авто</p>
+      <div className={styles.textBox}>
+        <h2 className={styles.titel}>IG-Service</h2>
+        <p className={styles.text}>Виконуємо работи будь якої складності</p>
+        <div className={styles.slaiderWrap}>
+          <div className={styles.svgBox}>
+            <svg className={styles.slaiderSvg}>
+              <use href={`${sprite}#repair-tools`}></use>
+            </svg>
+            <p className={styles.slaiderText}>Ремонт</p>
+          </div>
+          <div className={styles.svgBox}>
+            <svg className={styles.slaiderSvg}>
+              <use href={`${sprite}#ef2c01de1b6cf4e8cdb0e1c15b9b24c2`}></use>
+            </svg>
+            <p className={styles.slaiderText}>Діагостика</p>
+          </div>
+          <div className={styles.svgBox}>
+            <svg className={styles.slaiderSvg}>
+              <use href={`${sprite}#1630709`}></use>
+            </svg>
+            <p className={styles.slaiderText}>Обслуговування</p>
+          </div>
+        </div>
       </div>
+      <Comments />
       <div className={styles.locationBox}>
         <h2 className={styles.titleContacts}>Контактна информація</h2>
         <div className={styles.location}>
