@@ -16,7 +16,7 @@ const Header = ({ visible, onVisible }) => {
       </button>
 
       <a href='/'>
-        <img className={styles.logo} src='/img/ig-logo.png'></img>
+        <img className={styles.logo} src='/src/img/ig-logo.png'></img>
       </a>
       <div className={styles.svgPhone}>
         <svg className={styles.linkSvgPhone}>
