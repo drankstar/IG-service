@@ -76,6 +76,48 @@ const Slaider = () => {
           </div>
         </div>
       </div>
+      <div className={styles.repBox}>
+        <div className={styles.picturesBox}>
+          <div className={styles.imgeBox}>
+            <img
+              className={styles.pictures}
+              src='../../../public/img/5d4afeec163a7b1d37bef18085ba0d3f.jpg'
+            ></img>
+          </div>
+          <div className={styles.imge}>
+            <img
+              className={styles.pictures}
+              src='../../../public/img/02fa3aef-6823-4193-8ad5-be9e1f997e96.jpg'
+            ></img>
+          </div>
+        </div>
+
+        <div className={styles.itemBox}>
+          <div className={styles.svgContent}>
+            <h4 className={styles.repTitle}>
+              Запчастии на замовлення під ваше авто
+            </h4>
+            <svg className={styles.slaiderSvg}>
+              <use href={`${sprite}#car-repair-svgrepo-com`}></use>
+            </svg>
+          </div>
+          <p className={styles.repText}>
+            Швидко знайдемо та замовимо запчастини саме для вашего авто
+          </p>
+          <div className={styles.svgContent}>
+            <h4 className={styles.repTitle}>
+              Вигідні ціни на запчастини та роботи
+            </h4>
+            <svg className={styles.slaiderSvg}>
+              <use href={`${sprite}#car-repair-svgrepo-com`}></use>
+            </svg>
+          </div>
+          <p className={styles.repText}>
+            Швидко та якісно Виконуємо роботи за вигідними цінами
+          </p>
+        </div>
+      </div>
+
       <Comments />
       <div className={styles.locationBox}>
         <h2 className={styles.titleContacts}>Контактна информація</h2>

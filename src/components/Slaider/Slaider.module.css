@@ -58,6 +58,7 @@
 .slaiderSvg {
     width: 50px;
     height: 50px;
+    margin-right: 15px;
 }
 
 .location {
@@ -124,4 +125,64 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     letter-spacing: 0.02em;
+}
+
+.repBox {
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(235, 57, 25);
+    border-bottom: 1px solid rgb(235, 57, 25);
+
+}
+
+.repTitle {
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    margin-top: 15px;
+}
+
+.repText {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    margin-left: 65px;
+
+}
+
+.picturesBox {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    height: 500px;
+}
+
+.pictures {
+    width: 300px;
+    height: 400px;
+}
+
+.imgeBox {
+    padding-top: 50px;
+
+}
+
+.imge {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.itemBox {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.svgContent {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }

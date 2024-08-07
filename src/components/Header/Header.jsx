@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import sprite from "../../../public/sprite.svg"
+import sprite from "../../../img/ig-logo.png"
 
 const Header = ({ visible, onVisible }) => {
   const openMenu = () => {
