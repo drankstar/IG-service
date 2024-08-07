@@ -95,7 +95,7 @@ const Slaider = () => {
         <div className={styles.itemBox}>
           <div className={styles.svgContent}>
             <h4 className={styles.repTitle}>
-              Запчастии на замовлення під ваше авто
+              Запчастини на замовлення під ваше авто
             </h4>
             <svg className={styles.slaiderSvg}>
               <use href={`${sprite}#car-repair-svgrepo-com`}></use>
