@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import sprite from "../../../img/ig-logo.png"
+import sprite from "../../../public/sprite.svg"
 
 const Header = ({ visible, onVisible }) => {
   const openMenu = () => {
@@ -16,7 +16,7 @@ const Header = ({ visible, onVisible }) => {
       </button>
 
       <a href='/'>
-        <img className={styles.logo} src='/public/img/ig-logo.png'></img>
+        <img className={styles.logo} src='/img/ig-logo.png'></img>
       </a>
       <div className={styles.svgPhone}>
         <svg className={styles.linkSvgPhone}>
